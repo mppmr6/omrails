@@ -1,4 +1,14 @@
 Omrails::Application.routes.draw do
+
+get 'about' => 'pages#about'
+
+root :to => 'pages#home'
+
+
+  # You can have the root of your site routed with "root"
+  # just remember to delete public/index.html.
+  # root :to => 'welcome#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
